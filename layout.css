@@ -1,0 +1,169 @@
+.background {
+	content: ' ';
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.3;
+	background-image: url('peter-background.jpg');
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-size: cover;
+  }
+#Header
+{
+	background: #000000;
+	color: #fff;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 70px;
+}
+
+/* ------------------------------- HEADLINES ------------------------ */
+#AboutMeHeadline
+{
+	background: #87CEEB;
+	position: absolute;
+	top: 100px;
+	left: 0px;
+	width: 100%;
+	height: 50px;
+}
+#PhotosHeadline
+{
+	background: #87CEEB;
+	position: absolute;
+	top: 400px;
+	left: 0px;
+	width: 100%;
+	height: 50px;
+}
+#PlaylistHeadline
+{
+	background: #87CEEB;
+	position: absolute;
+	top: 1500px;
+	left: 0px;
+	width: 100%;
+	height: 50px;
+}
+#LikeHeadline
+{
+	background: #87CEEB;
+	position: absolute;
+	top: 2100px;
+	left: 0px;
+	width: 100%;
+	height: 50px;
+}
+#QAHeadline
+{
+	background: #87CEEB;
+	position: absolute;
+	top: 2200px;
+	left: 0px;
+	width: 100%;
+	height: 50px;
+}
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0px 100px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+/* .column {
+	flex: 50%;
+	padding: 0 10px;
+  }  */
+  
+.column img {
+	margin-top: 10px;
+	vertical-align: middle;
+  }
+/* .Family {
+	flex: auto;
+	width: 25%;
+	padding: 10px;
+  }
+.Friends
+{
+	flex: auto;
+	top:350px;
+	width: 25%;
+	padding: 10px;
+} */
+/* ------------------------------- CONTENT AREAS ------------------------ */
+#AboutMe
+{
+	position: relative;
+	top: 150px;
+	left: 0px;
+	width: 100%;
+	height: 10px;
+}
+#MyPhotos
+{
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	top: 480px;
+	left: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 500px;
+}
+#MyPlaylist
+{
+	display: flex;
+	flex-direction: row;
+	position: absolute;
+	top: 1500px;
+	left: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100px;
+}
+.buttons
+{
+	top: 20px;
+	cursor: pointer;
+	display: inline-block;
+}
+#ContactMe
+{
+	background: #000000;
+	color: #fff;
+	position: absolute;
+	top: 2500;
+	right: 0px;
+	bottom: 0px;
+	left: 0px;
+	width: 100%;
+	height: 50px;
+}
+
+/* .buttons:link{
+
+	font-weight:bold;
+	background-color: white;
+	cursor: pointer;
+} */
+/* .buttons:visited{
+	/* font-weight: bold; */
+	/* background-color: red;
+	color: red;
+} */ 
+.buttons:hover{
+	background-color: #87CEEB;
+	cursor: pointer;
+
+}
+.buttons:active {
+	font-weight: bold;
+	background-color: rgb(139, 44, 0);
+}
