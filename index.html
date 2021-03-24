@@ -5,6 +5,9 @@
     </head>
     <!-- <body style="background-image: url('peter-background.jpg')"> -->
     <body>
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0" nonce="uQAno2wg"></script>
+
         <div class = "background">
             <img src=peter-background.jpg width=100% height=100% />
         </div>
@@ -105,24 +108,18 @@
             </div>  
         </section>
 
-        
-        <div id= "Like">
-            <h2 align = center id="LikeHeadline"> --- LIKE ---</h2> 
+        <h2 align = center id="LikeHeadline"> --- LIKE ---</h2>
 
-        </div>
+        <section id= "Like">
+
+            <div class="fb-like" data-href="https://web-development-environments-2021.github.io/assignment1-GuyShimony/" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></div>        </section>
 
         <div id= "QR">
 
         </div>
 
         <div id= "Q&A">
-            <h2 align = center id="QAHeadline"> --- Q&A ---</h2> 
-            </br>
-            </br>   
-            </br>
-            </br>
-            </br>
-            </br>
+            <h2 align = center id="QAHeadline"> --- Q&A ---</h2>    
             
         </div>
 
@@ -147,7 +144,7 @@
             <button class ="buttons" onclick="window.location.href='#PlaylistHeadline'">My Playlist</button>
             <!-- <button class ="buttons" onclick="document.getElementById('middle').scrollIntoView();">My Play</button> -->
             <!-- <a href="#Like" style="color:white;">Like |</a> -->
-            <button class ="buttons" onclick="window.location.href='#Like'">LIKE</button>
+            <button class ="buttons" onclick="window.location.href='#LikeHeadline'">LIKE</button>
 
             <!-- <a href="#QR" style="color:white;">QR Code |</a> -->
             <button class ="buttons" onclick="window.location.href='#QRHeadline'">QR Code</button>
