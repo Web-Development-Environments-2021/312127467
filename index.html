@@ -6,7 +6,10 @@
     <!-- <body style="background-image: url('peter-background.jpg')"> -->
     <body class= "bod">
         <div id="fb-root"></div>
-        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0" nonce="uQAno2wg"></script>
+        <script async defer crossorigin="anonymous" 
+        src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0" 
+        nonce="uQAno2wg">
+        </script>
         
         <section>
             <h2 align =center id="AboutMeHeadline"> - - - ABOUT ME - - -</h2> 
@@ -146,28 +149,25 @@
         </div>
 
         <div id= "ContactMe">
-            Contact Me At: 
-            <br>
+            <h3> Contact Me At:  </h3>
+            <h4> Phone: 0123456789   |   eMail: GriffinPeter@gmail.com </h4>
             <form action="https://formsubmit.co/shimonyg@post.bgu.ac.il" method="POST">
                 Name:
-                <input type="text" name="Name" required></br>
-                Email To:
-                <input type="email" name="Email" required></br>
-                Message:
-                <textarea type="text" name="Message" required></textarea>
             </br>
+                <input type="text" name="Name" required></br>
+                Email:
+            </br>
+                <input type="email" name="Email" required></br> 
+                Message:
+            </br>
+                <textarea type="text" name="Message" required></textarea></br>
                 <button type="submit">Send</button>
             </form>
-        
       
-            <a href="PHONE" style="color:white;"> PHONE: 123456789 |</a>            
-             
-            <a href="#email" id ="tab" style="color:white;"> eMail: GriffinPeter@gmail.com</a>
         </div>
 
         <div id= "Header" align = center>
-            <img align = left src=logo.jpg width=100 height=70 />
-
+            <img align = left src=logo.jpg width=100 height=80 />
             <!-- <a href="#About" style="color:white; "target="_blank">About Me |</a> -->
             <button class ="buttons" onclick="window.location.href='#AboutMeHeadline'">About Me</button>
 
@@ -188,7 +188,6 @@
 
             <!-- <a href="#Contact" style="color:white;">Contact Me</a> -->
             <button class ="buttons" onclick="window.location.href='#ContactMe'">Contact Me</button>
-
         </div>
     </body>
 
