@@ -4,49 +4,64 @@
     <link href="layout.css" rel="stylesheet" type="text/css">
     </head>
     <!-- <body style="background-image: url('peter-background.jpg')"> -->
-    <body>
+    <body class= "bod">
         <div id="fb-root"></div>
         <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v10.0" nonce="uQAno2wg"></script>
-
-        <div class = "background">
-            <img src=peter-background.jpg width=100% height=100% />
-        </div>
         
         <section>
-            <h2 align =center id="AboutMeHeadline"> --- ABOUT ME ---</h2> 
+            <h2 align =center id="AboutMeHeadline"> - - - ABOUT ME - - -</h2> 
             <div id= "AboutMe">
             
-                <div align = center style= "color: black; font-weight: bold;">        
+                <p align = center>        
                 </br>
                 </br>
-                    My name is Peter Griffin! I live in Quhoug
-                </div>            
+                    Hi there! My name is Peter Griffin and I live in Quahog, Rhode Island.</br>
+                    I am a fictional character taking part in a televison show called "Family Guy" and voiced by 
+                    Seth MacFarlane.</br> My wife's name is Louis and together
+                    we have a dog, Brian, and three funny, creative and unique children: Chris, Meg and Stewie.</br>
+                    Most importantly, I have the best job one could ask for - working in the brewery.
+                    In my free time I like to do crazy things!</br> From drinking beer straight from the 
+                    barrel using a forklift to buying a helicopter and fighting my chicken nemesis. </br>
+                    I love hanging out with my family, watching televison and having fun. 
+                    I love going on wild adventures</br>
+                    with my dog and ofcourse drinking at the "Clam"!
+                    Have a crazy adventure in mind? IM THERE!  
+                </p>            
             </div>
         </section>
         
         <section>
-            <h2 align = center id="PhotosHeadline"> --- MY PHOTOS ---</h2> 
+            <h2 align = center id="PhotosHeadline"> - - - MY PHOTOS - - -</h2> 
             <div id= "MyPhotos">
                     <ol>
-                    <section class= "row">
-                        <h4 align = left>MY FAMILY</h4>    
+                    <section class= "pictureHeadlines">
+                        <h4 align = center>MY FAMILY</h4>    
                     </section>
                     <section class= "column">
-                        <img src=family.png width=300 height=300 />
-                    </section>
-                    <section class= "column">
-                        <img src=friends.jpg width=300 height=300 />
-                    </section>
-                    <section class= "column">
-                        <img src=fun.jpg width=300 height=300 />
+                        <img src=family.png width=400 height=300 />
+                        <img src=family2.jpg width=400 height=300 />
+                        <img src=family3.jpg width=400 height=300 />
                     </section>
                     </ol>
                     <ol>
-                    <section class= "row">
-                        <h4 align = left>MY FRIENDS</h4>    
+                    <section class= "pictureHeadlines">
+                        <h4 align = center>MY FRIENDS</h4>    
                     </section>
                     <section class= "column">
-                        <img src=fun2.jpg width=300 height=300 />
+                        <img src=friends.jpg width=400 height=300 />
+                        <img src=friends2.jpg width=400 height=300 />
+                        <img src=friends3.jpg width=400 height=300 />
+                    </section>
+                    </ol>
+                    <ol>
+                    <section class= "pictureHeadlines">
+                        <h4 align = center>MY SILLINESS</h4>    
+                    </section>
+                    <section class= "column">
+                        <img src=fun.jpg width=400 height=300 />
+                        <img src=fun2.jpg width=400 height=300 />
+                        <img src=fun3.png width=400 height=300 />
+
                     </section>
                     </ol>
 
@@ -54,7 +69,7 @@
         </section>
 
         <section>
-            <h2 align = center id="PlaylistHeadline"> --- MY PLAYLIST ---</h2>            
+            <h2 align = center id="PlaylistHeadline"> - - - MY PLAYLIST - - -</h2>            
             <div id= "MyPlaylist">
                 <section >
                     </br>
@@ -108,25 +123,43 @@
             </div>  
         </section>
 
-        <h2 align = center id="LikeHeadline"> --- LIKE ---</h2>
 
         <section id= "Like">
+            <h2 align = center id="LikeHeadline"> LIKE MY PAGE </h2>
 
-            <div class="fb-like" data-href="https://web-development-environments-2021.github.io/assignment1-GuyShimony/" data-width="" data-layout="button_count" data-action="like" data-size="large" data-share="true"></div>        
+            <div class="fb-like" data-href="https://web-development-environments-2021.github.io/assignment1-GuyShimony/" 
+            data-width="" data-layout="button_count" data-action="like" 
+            data-size="large" data-share="true"></div>        
         </section>
 
-        <div id= "QR">
+        <h2 align = center id="QRHeadline"> VISIT MY SITE! </h2>    
 
-        </div>
+        <section id= "QR">
+            <img class="qr_image" width="280" height="280" 
+            src="https://qrfree.kaywa.com/?l=1&amp;s=8&amp;d=https%3A%2F%2Fweb-development-environments-2021.github.io%2Fassignment1-GuyShimony%2F" 
+            alt="QRCode" style="display:inline">
+        </section>
 
         <div id= "Q&A">
-            <h2 align = center id="QAHeadline"> --- Q&A ---</h2>    
+            <h2 align = center id="QAHeadline"> - - - Q&A - - -</h2>    
             
         </div>
 
         <div id= "ContactMe">
             Contact Me At: 
             <br>
+            <form action="https://formsubmit.co/shimonyg@post.bgu.ac.il" method="POST">
+                Name:
+                <input type="text" name="Name" required></br>
+                Email To:
+                <input type="email" name="Email" required></br>
+                Message:
+                <textarea type="text" name="Message" required></textarea>
+            </br>
+                <button type="submit">Send</button>
+            </form>
+        
+      
             <a href="PHONE" style="color:white;"> PHONE: 123456789 |</a>            
              
             <a href="#email" id ="tab" style="color:white;"> eMail: GriffinPeter@gmail.com</a>

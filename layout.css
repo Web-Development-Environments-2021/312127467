@@ -1,16 +1,18 @@
-.background {
+.bod::before {
 	content: ' ';
-	display: block;
 	position: absolute;
-	left: 0;
 	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
 	width: 100%;
 	height: 100%;
 	opacity: 0.3;
-	background-image: url('peter-background.jpg');
+	background: url('peter-background.jpg');
 	background-repeat: no-repeat;
-	background-position: 100% 0;
+	background-position: center;
 	background-size: cover;
+	background-color: lightblue;
   }
 #Header
 {
@@ -24,56 +26,81 @@
 }
 
 /* ------------------------------- HEADLINES ------------------------ */
+.pictureHeadlines{
+	font-family: fantasy;
+	font-size: larger;
+}
 #AboutMeHeadline
 {
-	background: #87CEEB;
+	background: rgb(0, 83, 139);
 	position: absolute;
+	font-family: sans-serif;
+	color: #fff;
 	top: 100px;
 	left: 0px;
 	width: 100%;
-	height: 50px;
+	height: 30px;
 }
 #PhotosHeadline
 {
-	background: #87CEEB;
+	background: rgb(0, 83, 139);
 	position: absolute;
+	font-family: sans-serif;
+	color: #fff;
 	top: 400px;
 	left: 0px;
 	width: 100%;
-	height: 50px;
+	height: 30px;
 }
 #PlaylistHeadline
 {
-	background: #87CEEB;
+	background: rgb(0, 83, 139);
 	position: absolute;
-	top: 1500px;
+	font-family: sans-serif;
+	color: #fff;
+	top: 1580px;
 	left: 0px;
 	width: 100%;
-	height: 50px;
+	height: 30px;
 }
 #LikeHeadline
 {
-	background: #87CEEB;
+	background: rgb(0, 83, 139);
 	position: absolute;
-	top: 2100px;
+	font-family: sans-serif;
+	color: #fff;
+	top: 2150px;
 	left: 0px;
 	width: 100%;
-	height: 50px;
+	height: 30px;
 }
-#QAHeadline
+#QRHeadline
 {
-	background: #87CEEB;
+	background: rgb(0, 83, 139);
 	position: absolute;
+	font-family: sans-serif;
+	color: #fff;
 	top: 2500px;
 	left: 0px;
 	width: 100%;
-	height: 50px;
+	height: 30px;
 }
-.row {
+#QAHeadline
+{
+	background: rgb(0, 83, 139);
+	position: absolute;
+	font-family: sans-serif;
+	color: #fff;
+	top: 2930px;
+	left: 0px;
+	width: 100%;
+	height: 30px;
+}
+/* .row {
 	display: flex;
 	flex-wrap: wrap;
-	padding: 0px 100px;
-  }
+	padding: 0px 140px;
+  } */
   
   /* Create two equal columns that sits next to each other */
 /* .column {
@@ -82,7 +109,8 @@
   }  */
   
 .column img {
-	margin-top: 10px;
+	margin-top: 8px;
+	padding: 10px;
 	vertical-align: middle;
   }
 /* .Family {
@@ -100,7 +128,9 @@
 /* ------------------------------- CONTENT AREAS ------------------------ */
 #AboutMe
 {
-	position: relative;
+	position: absolute;
+	font-weight: bold;
+	color: rgb(0, 4, 255);
 	top: 150px;
 	left: 0px;
 	width: 100%;
@@ -122,11 +152,30 @@
 	display: flex;
 	flex-direction: row;
 	position: absolute;
-	top: 1500px;
-	left: 0px;
+	top: 1560px;
+	left: 70px;
 	padding: 0px;
 	width: 100%;
 	height: 100px;
+}
+.qr_image
+{
+	display: flex;
+	position: absolute;
+	top: 2620px;
+	left: 40.5%;
+	padding: 0px;
+}
+.fb-like
+{
+	display: flex;
+	position: absolute;
+	top: 2260px;
+	left: 40.5%;
+	padding: 38px;
+	border-style: dotted; 
+	border-color: rgb(0, 25, 139); 	
+	border-width: 10px; 
 }
 .buttons
 {
@@ -139,12 +188,13 @@
 	background: #000000;
 	color: #fff;
 	position: absolute;
-	top: 2500;
+	font-family: sans-serif;
+	top: 3300;
 	right: 0px;
 	bottom: 0px;
 	left: 0px;
 	width: 100%;
-	height: 50px;
+	height: 100px;
 }
 
 /* .buttons:link{
