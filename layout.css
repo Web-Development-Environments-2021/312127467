@@ -1,21 +1,13 @@
-/* .bod{
-	content: '';
-	background-image: url('peter-background.jpg');
-	background-repeat: no-repeat;
-	background-attachment: relative;
-	background-size: cover;
-	opacity: 10;
-  } */
+/* .back{
 
-.back{
-
-	height: 100%;
+	height: 2700px;
 	width: 100%;
-	background-image: url('peter-background.jpg') ;
+	background-image: url('peter-background.png') ;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-}
+	opacity: 0.3;
+} */
 #Header
 {
 	background: #000000;
@@ -110,7 +102,7 @@
 	position: absolute;
 	font-weight: bold;
 	color: rgb(0, 26, 255);
-	top: 130px;
+	top: 150px;
 	left: 0px;
 	width: 100%;
 	height: 10px;
@@ -131,7 +123,7 @@
 	display: flex;
 	flex-direction: row;
 	position: absolute;
-	top: 1520px;
+	top: 1570px;
 	left: 70px;
 	padding: 0px;
 	width: 100%;
@@ -141,7 +133,7 @@
 {
 	display: flex;
 	position: absolute;
-	top: 2580px;
+	top: 2620px;
 	left: 40%;
 	padding: 0px;
 }

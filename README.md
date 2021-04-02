@@ -5,4 +5,4 @@ Full Name: Guy Shimony
 ID: 312127467
 
 Username: GuyShimony
-github.io link: 
+github.io link:  https://web-development-environments-2021.github.io/assignment1-GuyShimony/
