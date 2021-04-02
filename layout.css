@@ -1,3 +1,17 @@
+.back::before{
+	content: '';
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-image: url('peter-background.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	opacity: 0.3;
+	height: 1770px;
+}
 #Header
 {
 	background: #000000;
@@ -97,6 +111,10 @@
 	left: 0px;
 	width: 100%;
 	height: 10px;
+}
+#AboutMe img{
+	opacity: 0.3;
+
 }
 #MyPhotos
 {
@@ -224,14 +242,4 @@ input[type=submit], button {
 }
 input[type=submit],button:hover {
 	background-color: darkblue;
-}
-.back{
-
-	height: 1650px;
-	width: 100%;
-	background-image: url('peter-background.png') ;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-	opacity: 0.3;
 }
